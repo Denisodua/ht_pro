@@ -1,0 +1,45 @@
+html h1,
+.info_section .item .info .name .text,
+.info_section .item .info .name .text span {
+    font-family: "Open Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+
+.banner_one h1 {
+    padding: 0 37px;
+    letter-spacing: -0.03em;
+}
+
+.banner_two .content h2 {
+    padding: 0 25px;
+    letter-spacing: 0;
+}
+
+@media(min-width: 1640px) {
+
+    .info_title h2 {
+        font-weight: 600;
+    }
+
+    .banner_section.banner_two .content,
+    .banner_section.banner_four .content {
+        padding: 70px 0 80px 261px;
+    }
+
+    .banner_two .content h2 {
+        font-size: 45px;
+        width: 714px;
+        line-height: 61px;
+    }
+
+    html .backgrounds .image .desktop_banner_image {
+        height: 104%;
+        right: 0;
+    }
+
+    .banner_one h1 {
+        max-width: 655px;
+        padding-left: 0;
+    }
+}
